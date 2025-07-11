@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dental Traders - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+    }
+    header, footer {
+      background-color: #161b22;
+      color: #f1c40f; /* Yellow header text */
+      padding: 30px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #21262d;
+      padding: 15px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #c9d1d9;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #58a6ff;
+    }
+    main, section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero {
+      background: url('images/hero.jpg') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 5px #000;
+    }
+    .services, .testimonials, .newsletter, .social, .backtotop {
+      max-width: 1000px;
+      margin: auto;
+    }
+    .service-cards, .testimonial-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .card {
+      background-color: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 10px;
+      padding: 25px;
+      width: 250px;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(88, 166, 255, 0.1);
+    }
+    .card h3 {
+      color: #58a6ff;
+      margin-bottom: 10px;
+    }
+    form input[type=email] {
+      padding: 10px;
+      width: 60%;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+    form button {
+      padding: 10px 20px;
+      margin-left: 10px;
+      background: #58a6ff;
+      border: none;
+      border-radius: 5px;
+      color: black;
+      cursor: pointer;
+    }
+    .social a {
+      margin: 0 10px;
+      color: #58a6ff;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    .backtotop {
+      margin-top: 40px;
+    }
+    .backtotop a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dental Traders</h1>
+    <p>Reliable Dental Equipment, Trusted by Professionals</p>
+  </header>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Quality Equipment for Every Dental Clinic</h2>
+  </div>
+
+  <main>
+    <h2>Welcome to Dental Traders</h2>
+    <p>We provide premium dental chairs, sterilizers, and tools for clinics across India. Quality assured, competitively priced.</p>
+  </main>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>1-Year Warranty</h3>
+        <p>Every product comes with a trusted 1-year service warranty.</p>
+      </div>
+      <div class="card">
+        <h3>Expert Support</h3>
+        <p>Need help choosing tools? Our dental experts are here to guide you.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial-cards">
+      <div class="card">
+        <h3>Dr. Sharma</h3>
+        <p>"Excellent service and durable products. Highly recommended!"</p>
+      </div>
+      <div class="card">
+        <h3>Dr. Verma</h3>
+        <p>"My clinic has been using Dental Traders for years. Best prices and fast delivery."</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <h2>Subscribe to Our Newsletter</h2>
+    <form>
+      <input type="email" placeholder="Enter your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <section class="social">
+    <h2>Connect with Us</h2>
+    <a href="https://wa.me/919418055682" target="_blank">WhatsApp</a>
+    <a href="https://facebook.com" target="_blank">Facebook</a>
+  </section>
+
+  <div class="backtotop">
+    <a href="#top">⬆ Back to Top</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Dental Traders. Designed with care.
+  </footer>
+</body>
+</html>

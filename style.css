@@ -1,0 +1,111 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #0d1117;
+  color: #c9d1d9;
+}
+
+header, footer {
+  background-color: #161b22;
+  color: #f1c40f;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #21262d;
+  padding: 15px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: #c9d1d9;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #58a6ff;
+}
+
+main, section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.service-cards, .testimonial-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  padding: 25px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(88, 166, 255, 0.1);
+}
+
+.card h3 {
+  color: #58a6ff;
+  margin-bottom: 10px;
+}
+
+form input[type=email] {
+  padding: 10px;
+  width: 60%;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+form button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background: #58a6ff;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.social a {
+  margin: 0 10px;
+  color: #58a6ff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.backtotop {
+  margin-top: 40px;
+}
+
+.backtotop a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+iframe {
+  border: none;
+  border-radius: 10px;
+}

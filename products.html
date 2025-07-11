@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dental Traders - Products</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Roboto', sans-serif; background: #f9f9f9; margin: 0; padding: 0; }
+    header, footer { background-color: #0077b6; color: white; padding: 20px; text-align: center; }
+    nav { background: #023e8a; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .products { padding: 40px 20px; display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .product-card {
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      width: 220px;
+      text-align: center;
+      padding: 15px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    .product-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .product-card h3 {
+      margin-top: 10px;
+      font-size: 18px;
+    }
+  </style>
+</head><link rel="stylesheet" href="style.css"></html>
+
+<body>
+  <header><h1>Our Products</h1></header>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <section class="products">
+    <div class="product-card">
+      <img src="images/dental_chair.jpg" alt="Dental Chair">
+      <h3>Dental Chair</h3>
+    </div>
+    <div class="product-card">
+      <img src="images/xray_machine.jpg" alt="X-Ray Machine">
+      <h3>X-Ray Machine</h3>
+    </div>
+    <div class="product-card">
+      <img src="images/intraoral_cam.jpg" alt="Intraoral Camera">
+      <h3>Intraoral Camera</h3>
+    </div>
+    <div class="product-card">
+      <img src="images/hand_tools.jpg" alt="Hand Tools">
+      <h3>Hand Instruments</h3>
+    </div>
+    <div class="product-card">
+      <img src="images/autoclave.jpg" alt="Autoclave Sterilizer">
+      <h3>Autoclave</h3>
+    </div>
+  </section>
+  <footer>&copy; 2025 Dental Traders. All rights reserved.</footer>
+</body>
+</html>
